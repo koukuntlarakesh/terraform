@@ -4,7 +4,7 @@ variable "ec2_ami" {
   
 }
 
-variable "ec2_intance_type" {
+variable "ec2_instance_type" {
   type        = string
   default     = "t2.small"
   
